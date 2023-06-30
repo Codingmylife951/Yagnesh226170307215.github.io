@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Us</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            color: beige;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: antiquewhite;
+            font-size: 65px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-family: Tahoma;
+        }
+
+        .animated-info {
+            opacity: 0;
+            animation-name: fadeIn;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .colorful {
+            background-color: #8a3ab9;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 55px;
+        }
+
+        .colorful-underline {
+            background-color: #ff7200;
+            height: 5px;
+            width: 50px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            box-shadow: 0 8px 12px 0 rgba(241, 238, 238, 0.24), 0 13px 47px 0 rgba(239, 233, 233, 0.19);
+
+        }
+    </style>
+</head>
+
+<body background="menu_back.jpg">
+    <div class="container">
+        
+            <div class="animated-info">
+                <a href="menu.html">   <p><span class="colorful">Foody</span></p></a>
+        <div class="colorful-underline"></div>
+        Indulge in a culinary paradise, where flavors dance on your palate.<br> Experience unforgettable tastes that
+        will leave you craving for more.<br> Explore our menu and embark on a delicious journey.
+        <p>Founded in 1905</p>
+        <p>34 branches in India</p>
+        <p>11 branches outside of India</p>
+        <p>3 million followers</p>
+        <p>Over 1,000 workers</p>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*logo*/
+#logo{
+    padding-right: 67%;
+    padding-left: 17%;
+    padding-top: 4%;
+    width: 84%;
+    height: 56%;
+}
+
+    
+/*body background*/
+    #body{
+        background-size: cover;
+        position: fixed;
+        background-repeat: no-repeat;
+      }
+
+/*tagline*/
+p{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(251, 249, 247);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 127px;
+    font-size: 125%;
+}
+/*button order now*/
+.first-button
+{  
+    padding: 9px 24px;
+    margin-left: 397px;
+    margin-top: 61px;
+    font-size: 152%;
+    border: 2px solid white;
+    border-radius: 7%;
+    color: beige;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Bitter', serif;
+    transition-duration: 0.9s;
+   
+}
+    
+/*button hover*/
+.first-button:hover
+{
+    
+   transition-duration: 1s;
+    font-size:148%;
+    padding: 6px 12px;
+    background-color: rgb(128, 136, 144);
+    box-shadow: 0 8px 12px 0 rgba(241, 238, 238, 0.24),0 13px 47px 0 rgba(239, 233, 233, 0.19);
+}
+

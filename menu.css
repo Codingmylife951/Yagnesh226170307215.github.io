@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*body background*/
+#body{
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    opacity:44;
+  }
+
+
+/*.second-logo {
+    margin-top:104px;
+   margin-left: 285px;
+   
+}*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+  list-style: none;
+  margin: 18px;
+}
+.navbar li a{
+    transition-duration: 1s;
+    padding: 18px 89px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.navbar li a:hover{
+    transition-duration: 1s;
+   color:goldenrod;
+    box-shadow: 0 8px 12px 0 rgba(241, 238, 238, 0.24),0 13px 47px 0 rgba(239, 233, 233, 0.19);
+}
+
+.slide{
+    height:715px;
+    width:100%;
+    background-image: url("burger.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: slides;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes slides{
+    0%{
+        background-image: url("burger.jpg");
+    }
+    16%{
+        background-image: url("ras puri.jpg");
+    }
+    32%{
+        background-image: url("full gujrati.jpg");
+    }
+    48%{
+       background-image: url("Punjabi-thali.jpg");
+    }
+    64%{
+       background-image: url("italiyan.png");
+    }
+    80%{
+        background-image:url("long\ dhosa.jpg");
+    }
+   
+}
